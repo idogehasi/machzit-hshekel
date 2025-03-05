@@ -25,11 +25,11 @@ async function calculateHalfShekel() {
 
     // הצגת המחיר ב-ILSXAG
     document.getElementById('result').innerHTML = `
-        <p>להלכה מחצית השקל בדיני תורה הוא 9.6 גר' כסף (פדיון הבן): ${(pricePerGram * 9.6).toFixed(3)}</p>
-        <p>פלוס מע"מ: ${((pricePerGram * 9.6).toFixed(3)) * 1.17}</p>
+        <p>להלכה מחצית השקל בדיני תורה הוא 9.6 גר' כסף (פדיון הבן): ${(pricePerGram * 9.6).toFixed(3)} ₪</p>
+        <p>פלוס מע"מ: ${((pricePerGram * 9.6).toFixed(3)) * 1.17} ₪</p>
 
-        <p>ואילו בדברים שהם זכר או דרבנן אפשר להסתפק שמחצית השקל היא 8.5 גרם כסף כפי משקל השקל שנפסק בשו"ע: ${(pricePerGram * 8.5).toFixed(3)}</p>
-        <p>פלוס מע"מ: ${((pricePerGram * 8.5).toFixed(3)) * 1.17}</p>
+        <p>ואילו בדברים שהם זכר או דרבנן אפשר להסתפק שמחצית השקל היא 8.5 גרם כסף כפי משקל השקל שנפסק בשו"ע: ${(pricePerGram * 8.5).toFixed(3)} ₪</p>
+        <p>פלוס מע"מ: ${((pricePerGram * 8.5).toFixed(3)) * 1.17} ₪</p>
 
     `;
   } catch (error) {

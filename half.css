@@ -1,0 +1,34 @@
+/* סגנון בסיסי */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+    background-color: #f4f4f9;
+    padding: 0;
+    margin: 0;
+}
+
+/* מיכל מרכזי */
+.container {
+    padding-top: 50px;
+}
+
+/* כפתור */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* תוצאה */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
